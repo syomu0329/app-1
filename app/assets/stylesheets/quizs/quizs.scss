@@ -1,0 +1,122 @@
+.top-header{
+  height: 20vh;
+  background-color: lightblue;
+  background-image: url("../oniatu.png");
+  background-size: 20vh;
+  display: flex;
+}
+
+.left-header{
+  height: 20vh;
+  width: 30vw;
+}
+
+.rizero-1{
+  height: 20vh;
+  width: 20vw;
+}
+
+.middle-header{
+  height: 20vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title{
+  padding-top: 5vh;
+  font-size: 50px;
+  color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-header{
+  height: 20vh;
+  width: 30vw;
+}
+
+.rizero-2{
+  height: 20vh;
+  width: 20vw;
+  margin-left: 10vw;
+}
+
+.main{
+  display: flex;
+  height: 70vh;
+}
+
+.p-main{
+  width: 33vw;
+  background-color: greenyellow;
+}
+
+.p-up{
+  background-image: url("../pokemon.jpg");
+  background-size: 70vh;
+  height: 45vh;
+  width: 33vw;
+}
+
+.p-down{
+  justify-content: center;
+  text-align: center;
+}
+
+.r-main{
+  width: 34vw;
+  background-color: rgb(24, 21, 230);
+}
+
+.r-up{
+  background-image: url("../rizero.jpeg");
+  background-size: 74vh;
+  height: 45vh;
+  width: 34vw;
+}
+
+.r-down{
+  text-align: center;
+}
+
+.pati-main{
+  width: 33vw;
+  background-color: goldenrod;
+}
+
+.pati-up{
+  background-image: url("../gogo.jpg");
+  background-size: 55vh;
+  height: 45vh;
+  width: 33vw;
+}
+
+.pati-down{
+  justify-content: center;
+  text-align: center;
+}
+
+p{
+  font-size: 40px;
+  color: white;
+}
+
+.question-button{
+  font-size: 30px;
+  color: white;
+}
+
+.haba{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer{
+  height: 10vh; 
+  color: rebeccapurple;
+  background-color:lightpink;
+  display: flex;
+  justify-content: center;
+}

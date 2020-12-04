@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>クイズ</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <script type="text/javascript" src="https://js.pay.jp/v1/"></script> <%# クライアントサイドからPAY.JPのAPIを使用するために読み込むJavaScriptのライブラリです。payjp.jsを読み込むための記述%>
+  <%= stylesheet_link_tag 'application', media: 'all'%>
+  <%= javascript_pack_tag 'application' %>
+</head>
+
+<header class = "top-header">
+  <div class ="left-header">
+    <%= image_tag "rem.jpeg" ,class: "rizero-1" %>
+  </div>
+  <div class = "middle-header">
+    <%= link_to "クイズ", root_path, class: "title" %>
+  </div>
+  <div class = "right-header">
+    <%= image_tag "ram.jpeg" ,class: "rizero-2" %>
+  </div>
+</header>
+
+  <body>
+    <%= yield %>
+  </body>
+
+  <div class = "footer">
+    <div>楽しく遊びましょう</div>
+  </div>
+
+</html>
